@@ -1,0 +1,118 @@
+##### 菜单
+menu:
+  主页: /
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  关于: /about
+
+
+
+#### 控件
+widgets: 
+##- category
+- tag
+- links
+- weibo
+- tagcloud
+
+## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
+
+
+#### RSS 
+rss: /atom.xml ## RSS address.
+
+#### 图片相关
+imglogo:
+  enable: true               ## 是否显示网站 logo
+  src: img/logo.png        
+favicon: img/favicon.ico     ## 网站图标    
+apple_icon: img/jacman.jpg   ## 苹果设备上的图标，背景不要透明
+author_img: img/author.jpg   ## 网站底部的博主头像
+banner_img: img/banner.jpg   ## 博客顶部的图片
+
+
+### 主题颜色
+theme_color:
+    theme: '#2ca6cb'    ##默认主题颜色为蓝色
+
+close_aside: false      ##是否在文章页面自动关闭侧边栏
+
+#### 首页相关
+index:
+  expand: true              ## 首页文章是否展开。默认为展开式，显示 Read More。
+  excerpt_link: Read More  
+
+
+
+#### 作者信息
+author:
+  intro_line1:  "Hello ,I'm ZhangYang.z in Google."    ## 网站底部的个人介绍
+  intro_line2:  $$f(x_1,x_2,ldots,x_n) = x_1^2 + x_2^2 + cdots + x_n^2$$   
+  weibo_verifier: b53de27a  ## 微博秀的验证码
+  tsina: 2049183037         ## 用于微博秀和微博分享
+  weibo:     2049183037               ## 用于显示网站底部社交按钮，下同
+  douban: jeyy        
+  zhihu:  zhang-xiao-bu-91
+  email:  lemonsw@icloud.com   
+  twitter:   
+  github: liuhouer    
+  facebook: 
+  linkedin:   
+  google_plus:   
+  stackoverflow:  
+
+
+
+#### 目录
+toc:
+  article: true   ## 是否在文章中显示目录
+  aside: true     ## 是否在侧边栏显示目录.
+
+#### 友情链接
+links:
+ 
+ 布.词: http://123.56.129.117:8082,最炫酷的歌词博客
+ 挖粪男孩的blog: http://effine.cn,哈哈，他叫verphen，故给他起绰号挖粪男孩
+ OldのSix的blog: http://www.lonelyrobots.cn/,哈哈，他排行老六，又名撒币六子
+
+#### 评论
+duoshuo_shortname: Bruce
+disqus_shortname:  
+
+#### 分享按钮
+jiathis:
+  enable: false   ## 默认使用主题内建分享
+  id:    
+  tsina: 
+  
+#### 网站统计
+google_analytics:
+  enable: false
+  id:            ## google analytics ID.
+  site:          ## 网站地址.
+baidu_tongji:
+  enable: false
+  sitecode:      ## 百度统计站点特征码
+cnzz_tongji:
+  enable: false
+  siteid: 1254771907       ## CNZZ统计站点ID
+
+#### 杂项
+ShowCustomFont: true  
+fancybox: true        
+totop: true           
+
+#### 自定义搜索
+google_cse: 
+  enable: false
+  cx:  
+baidu_search:    
+  enable: false
+  id:   
+  site: http://zhannei.baidu.com/cse/search 
+tinysou_search:     ## http://tinysou.com/
+  enable: false
+  id: "4ac092ad8d749fdc6293"  
+
+
